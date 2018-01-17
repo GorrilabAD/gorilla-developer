@@ -1,0 +1,76 @@
+body{
+  background: #2b2b2b;
+  display: flex;
+  font-family: 'Arial';
+}
+.slider {
+  width: 100%;
+  height:800px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 300px;
+  position: absolute;
+  font-size: 50px;
+  color: #fff;
+  display: none;
+}
+.img .curry {
+  display: block;
+}
+.img:first-child{
+  display: block;
+  width: 100%;
+  background: linear-gradient(35deg, #fefcea, #f1da36);
+
+}
+.img:nth-child(2) {
+  width: 100%;
+  background: linear-gradient(30deg, #311B92, #D1C4E9);
+
+}
+.img:nth-child(3) {
+  width: 100%;
+  background: linear-gradient(to top, #01579B, #B3E5FC);
+
+}
+.img:nth-child(4) {
+  width: 100%;
+  background: linear-gradient(to top, #006064, #80DEEA);
+
+}
+.img:nth-child(5) {
+  width: 100%;
+  background: linear-gradient(to top, #00695C, #B2DFDB);
+
+}
+.n {
+  color: #575757;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+
+}
+a:hover{
+  color: #0AB6DD;
+}
+.prev{
+  position: absolute;
+  top: 240px;
+  left:400px;
+  z-index: 999;
+}
+.next {
+  position: absolute;
+  top: 240px;
+  right: 400px;
+}
